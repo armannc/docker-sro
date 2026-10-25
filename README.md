@@ -42,9 +42,7 @@ CONTAINER ID   IMAGE          STATUS          PORTS                  NAMES
 
 Сайт http://localhost:8080 мекенжайында қолжетімді.
 
-![image](<img width="1192" height="666" alt="image" src="https://github.com/user-attachments/assets/83a3ae7e-8721-42b9-90e2-d8622427a16f" />
-)
-
+<img width="1192" height="666" alt="image" src="https://github.com/user-attachments/assets/83a3ae7e-8721-42b9-90e2-d8622427a16f" />
 ## 6. PostgreSQL контейнері
 
 Сайттың орнына дерекқор көтердім (postgres:18). Порт 5433, себебі 5432 жергілікті PostgreSQL-де бос емес.
@@ -79,6 +77,7 @@ SELECT * FROM students;
 
 pgAdmin4 арқылы `localhost:5433` мекенжайымен қосылдым:
 
-![pgAdmin](<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6852e173-dfd1-4728-9908-c424d0178c70" />
-)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6852e173-dfd1-4728-9908-c424d0178c70" />
+Терминалдағы нәтиже:
+
 <img width="1465" height="556" alt="image" src="https://github.com/user-attachments/assets/26573e72-2c12-4b2d-8dd3-9f224ab62937" />
