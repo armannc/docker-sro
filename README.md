@@ -42,7 +42,7 @@ CONTAINER ID   IMAGE          STATUS          PORTS                  NAMES
 
 Сайт http://localhost:8080 мекенжайында қолжетімді.
 
-![image](<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/2c25609f-94ac-49fb-8e1d-5b465e3bd920" />
+![image](<img width="1192" height="666" alt="image" src="https://github.com/user-attachments/assets/83a3ae7e-8721-42b9-90e2-d8622427a16f" />
 )
 
 ## 6. PostgreSQL контейнері
@@ -79,6 +79,6 @@ SELECT * FROM students;
 
 pgAdmin4 арқылы `localhost:5433` мекенжайымен қосылдым:
 
-![pgAdmin](<img width="1600" height="899" alt="WhatsApp Image 2026-10-25 at 18 47 25" src="https://github.com/user-attachments/assets/41312d62-df6f-49b5-bbf4-00dc35b358d6" />
+![pgAdmin](<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6852e173-dfd1-4728-9908-c424d0178c70" />
 )
 <img width="1465" height="556" alt="image" src="https://github.com/user-attachments/assets/26573e72-2c12-4b2d-8dd3-9f224ab62937" />
