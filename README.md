@@ -42,7 +42,8 @@ CONTAINER ID   IMAGE          STATUS          PORTS                  NAMES
 
 Сайт http://localhost:8080 мекенжайында қолжетімді.
 
-<img width="1192" height="666" alt="image" src="https://github.com/user-attachments/assets/83a3ae7e-8721-42b9-90e2-d8622427a16f" />
+<img width="1600" height="899" alt="WhatsApp Image 2026-10-25 at 18 56 10" src="https://github.com/user-attachments/assets/102f03b6-b023-485d-966e-d8b7f6ea9568" />
+
 ## 6. PostgreSQL контейнері
 
 Сайттың орнына дерекқор көтердім (postgres:18). Порт 5433, себебі 5432 жергілікті PostgreSQL-де бос емес.
