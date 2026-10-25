@@ -82,3 +82,23 @@ pgAdmin4 арқылы `localhost:5433` мекенжайымен қосылдым
 Терминалдағы нәтиже:
 
 <img width="1465" height="556" alt="image" src="https://github.com/user-attachments/assets/26573e72-2c12-4b2d-8dd3-9f224ab62937" />
+
+## 7. Docker Hub
+
+Docker Hub-та тіркелдім (`armanakmurat`) және үш image жүктедім:
+
+```bash
+docker login
+docker tag my-html-site armanakmurat/my-html-site:latest
+docker push armanakmurat/my-html-site:latest
+```
+
+Профиль: https://hub.docker.com/u/armanakmurat
+
+| Image | Сипаттама |
+|-------|-----------|
+| armanakmurat/my-html-site | nginx сайты |
+| armanakmurat/my-db-image | `students` кестесі бар PostgreSQL 18 |
+| armanakmurat/my-html-site-2 | busybox негізіндегі екінші сайт |
+
+<img width="1907" height="1023" alt="image" src="https://github.com/user-attachments/assets/d8b185ed-c192-4a15-a237-9767ddc098f0" />
