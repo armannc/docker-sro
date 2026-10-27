@@ -102,3 +102,21 @@ docker push armanakmurat/my-html-site:latest
 | armanakmurat/my-html-site-2 | busybox негізіндегі екінші сайт |
 
 <img width="1907" height="1023" alt="image" src="https://github.com/user-attachments/assets/d8b185ed-c192-4a15-a237-9767ddc098f0" />
+
+## 8. Бәрін Docker Compose арқылы іске қосу
+
+Сайт, дерекқор және приложение бір `docker-compose.yml` арқылы көтеріледі (image-дер Docker Hub-тан тартылады):
+
+```bash
+git clone https://github.com/armannc/docker-sro.git
+cd docker-sro
+docker compose up -d
+```
+
+Тексеру (іске қосқаннан кейін 10 секундтай күту керек):
+
+- `docker compose ps`: 3 контейнер `Up` болуы керек
+- http://localhost:8080 сайт
+- http://localhost:5000/students приложение, БД-дан деректі оқиды
+
+Тоқтату: `docker compose down`

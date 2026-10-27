@@ -1,0 +1,25 @@
+services:
+  site:
+    image: armanakmurat/my-html-site:latest
+    ports:
+      - "8080:80"
+
+  db:
+    image: armanakmurat/my-db-image:latest
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    image: armanakmurat/my-app:latest
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: db
+    depends_on:
+      db:
+        condition: service_healthy
